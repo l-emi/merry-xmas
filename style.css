@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha');
+
+html, body {
+  background-color: #A92026;
+  padding: 0;
+  margin: 0;
+  font-family: 'Neucha', cursive;
+  font-size: 10vw;
+  color: white;
+}
+
+.centered {
+  position: fixed;
+  width: 100%;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#heading {
+  z-index: 100;
+  text-align: center;
+}
+
+h1 {
+  font-size: 10vw;
+}
+
+p {
+  position: relative;
+  margin-top: -8%;
+  font-size: 5vw;
+  font-style: italic;
+}
+
+#mistle {
+  position: fixed;
+  width: 70%;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#baubles {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+svg {
+  padding: 0;
+  margin: 0;
+}
+
+.svg-container {
+ display: inline-block;
+ position: relative;
+ width: 10%;
+ margin-left: 6.5%;
+}
